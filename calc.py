@@ -94,7 +94,7 @@ def make_sqrt_button(operation):
 
 
 win = tk.Tk()
-win.geometry(f"240x315+900+100")
+win.geometry(f"240x325+900+100")
 win['bg'] = '#33ffe6'
 win.title('Калькулятор')
 win.resizable(False, False)
@@ -138,5 +138,6 @@ win.grid_rowconfigure(1, minsize=60)
 win.grid_rowconfigure(2, minsize=60)
 win.grid_rowconfigure(3, minsize=60)
 win.grid_rowconfigure(4, minsize=60)
+win.grid_rowconfigure(5, minsize=60)
 
 win.mainloop()
